@@ -1,13 +1,15 @@
+/* Universal Styling */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Set Body background-color for full page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header Styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,16 @@ header {
     color: #ffffff;
 }
 
+/* Header title Stlyes */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
 .seo {
     color: #d9dcd6;
 }
 
+/* Header navigation bar styles */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +34,21 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 ul {
     list-style-type: none;
 }
-
 li {
     display: inline-block;
     margin-left: 25px;
 }
-
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* Main Content Styling */
 
+/* Banner Image Styling */
 .hero-image {
     height: 800px;
     width: 100%;
@@ -58,24 +57,46 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* Paragraph styles */
 
+p {
+    font-size: 16px;
+}
+/* Product Content Styles */
+.product-content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-    
+/* Product div element styles */
+.product {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Product image size styles */
+.product img {
+    max-height: 200px;
+}
+/* Product header (h2) styles */
+ h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
+/* Benefits side bar styles */
+/* Aside element section styles */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,41 +107,24 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefits {
+/* Benefit Div Element styles */
+aside div {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Benefit title styles */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefits img {
+/* Benefit icon styles */
+aside div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.product {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.product img {
-    max-height: 200px;
-}
-
- h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Styles */
 footer {
     padding: 30px;
     clear: both;
