@@ -5,8 +5,9 @@
 - Description
 - User Story
 - Acceptance Criteria
-- Usage
 - Technologies
+- Usage
+- Demo
 - Deployment
 - Credits
 
@@ -18,7 +19,7 @@ This repository has been created and completed as part of UofT's Bootcamp Module
 
 **An overview of changes made includes:**
 
-- Editted provided code to ensure page works as desired
+- Editted provided code to ensure page works as desired,
 - Added semantic HTML and alt tags to enable improved assistive technoloy use,
 - Consolidated CSS styles in stylesheet and added comments to improve understanding of layout and styling decisons.
 
@@ -42,14 +43,18 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-### Usage:
-
-Review commit history to view steps taken to refractor code.
-
 ### Technologies:
 
 - HTML
 - CSS
+
+### Usage:
+
+Review commit history to view steps taken to refractor code.
+
+### Demo:
+
+To view a reference image of deployed site: [assets/images/Module01-Challenge-Demo-Image.png]
 
 ### Deployment:
 
