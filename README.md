@@ -13,23 +13,23 @@
 
 ---
 
-### Description
+## Description
 
 This repository has been created and completed as part of UofT's Bootcamp Module 01 Challenge. Using provided starter code, this repository outlines the process of refractoring the existing code to improve site accessibility.
 
-**An overview of changes made includes:**
+### An overview of changes made includes:
 
 - Editted provided code to ensure page works as desired,
 - Added semantic HTML and alt tags to enable improved assistive technoloy use,
 - Consolidated CSS styles in stylesheet and added comments to improve understanding of layout and styling decisons.
 
-### User Story:
+## User Story:
 
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 
-### Acceptance Criteria
+## Acceptance Criteria
 
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
@@ -43,23 +43,23 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-### Technologies:
+## Technologies:
 
 - HTML
 - CSS
 
-### Usage:
+## Usage:
 
 Review commit history to view steps taken to refractor code.
 
-### Demo:
+## Demo:
 
-To view a reference image of deployed site: [assets/images/Module01-Challenge-Demo-Image.png]
+To view a reference screenshot of deployed site: <img src="assets/images/Module01-Challenge-Demo-Image.png" alt="Deployed Horiseon site" />
 
-### Deployment:
+## Deployment:
 
-- View this application in a web environment: [https://amywilford.github.io/Module01-Challenge/]
+- View this application in a web environment: [https://amywilford.github.io/Module01-Challenge]
 
-### Credits
+## Credits
 
-Starter code from bootcamp course provider
+Starter code provided by bootcamp course

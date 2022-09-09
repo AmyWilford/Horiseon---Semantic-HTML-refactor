@@ -4,9 +4,10 @@
     padding: 0;
     margin: 0;
 }
-/* Body background-color for full page*/
+/* Body styles*/
 body {
     background-color: #d9dcd6;
+    font-size: 16px;
 }
 
 /* HEADER STYLES  */
@@ -63,11 +64,11 @@ a {
     display: inline-block;
     margin-left: 20px;
 }
-.float-left {
+.image-float-left {
     float: left;
     margin-right: 25px;
 }
-.float-right {
+.image-float-right {
     float: right;
     margin-left: 25px;
 }
@@ -90,8 +91,7 @@ a {
     font-size: 36px;
 }
 
-/* Right Side Benefits side bar styles */
-/* Aside element section stying */
+/* Right-Side Benefits side bar styles / Aside Element section styling */
 aside {
     margin-right: 20px;
     padding: 20px;
